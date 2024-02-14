@@ -161,4 +161,14 @@ cython_debug/
 
 secure-connect-*.zip
 *-token.json
+
+# Visual Studio Code
 .DS_Store
+
+# Documents
+*.pdf
+
+# Virtual environment
+venv/
+```
+.venv
