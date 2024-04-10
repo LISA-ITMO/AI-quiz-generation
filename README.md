@@ -27,6 +27,15 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ### Configuration
 Instructions on how to configure the project.
 
+- Copy text PDF files to the `data` folder.
+- Run the script, to convert text to vector embeddings and save in FAISS index: 
+
+`python ingest.py`
+
+- Run the script, to process data with Mistral LLL and return the answer: 
+
+`python main.py "retrieve invoice number value"`
+
 ### Contributing
 Author [Konstantin Baltsat](https://github.com/baltsat).
 Guidelines for contributing to the project.

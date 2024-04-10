@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "llm-mistral-rag"
+version = "0.1.0"
+description = ""
+authors = ["Konstantin Baltsat <baltsat2002@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ctransformers = "^0.2.27"
+faiss-cpu = "^1.8.0"
+langchain = "0.0.331"
+pypdf = "^4.1.0"
+python-box = "^7.1.1"
+sentence-transformers = "^2.5.1"
+haystack = "^0.42"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
